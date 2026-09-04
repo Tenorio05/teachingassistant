@@ -8,3 +8,9 @@ Given I am at the performance comparison page
 And I see the graph showing "Students grades average" x "Classes"
 When I set the graph to show "Students frequency average"
 Then I can see the graph showing "Students frequency average" x "Classes"
+
+Scenario: Comparing something somewhere
+Given I am at some page
+And I see something I don't want to
+When I try to put another stuff
+Then I can see what I wanted
