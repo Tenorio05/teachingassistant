@@ -1,6 +1,7 @@
-Feature: As a professor
-         I want to see the classes performance graph
-         So that I can compare the classes of a course
+Feature: Performance Comparison
+As a professor
+I want to see the classes performance graph
+So that I can compare the classes of a course
 
 Scenario: Comparing students frequency in the graph
 Given I am at the performance comparison page
